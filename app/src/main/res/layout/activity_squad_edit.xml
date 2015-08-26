@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.andstepko.teacher.SquadEditActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/add_button_squad_edit"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="squad.txt"
+        android:id="@+id/importButton"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/add_button_squad_edit"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewSquadEdit"
+        android:layout_below="@+id/add_button_squad_edit"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:id="@+id/nameSortButton"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/importButton"
+        android:layout_toEndOf="@+id/importButton"
+        android:layout_marginLeft="35dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="surn"
+        android:id="@+id/surnameSortButton"
+        android:layout_above="@+id/listViewSquadEdit"
+        android:layout_toRightOf="@+id/nameSortButton"
+        android:layout_toEndOf="@+id/nameSortButton"
+        android:layout_marginLeft="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="room"
+        android:id="@+id/roomSortButton"
+        android:layout_above="@+id/listViewSquadEdit"
+        android:layout_toRightOf="@+id/surnameSortButton"
+        android:layout_toEndOf="@+id/surnameSortButton"
+        android:layout_marginLeft="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="age"
+        android:id="@+id/ageSortButton"
+        android:layout_above="@+id/listViewSquadEdit"
+        android:layout_toRightOf="@+id/roomSortButton"
+        android:layout_toEndOf="@+id/roomSortButton"
+        android:layout_marginLeft="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="group"
+        android:id="@+id/groupSortButton"
+        android:layout_above="@+id/listViewSquadEdit"
+        android:layout_toRightOf="@+id/ageSortButton"
+        android:layout_toEndOf="@+id/ageSortButton"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="16sp"
+        android:id="@+id/squadEditQuantityTextView"
+        android:layout_above="@+id/listViewSquadEdit"
+        android:layout_toRightOf="@+id/groupSortButton"
+        android:layout_toEndOf="@+id/groupSortButton"
+        android:layout_marginLeft="15dp" />
+</RelativeLayout>

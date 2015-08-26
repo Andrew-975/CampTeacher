@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.andstepko.teacher" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlatesTabActivity"
+            android:label="@string/title_activity_plates_tab" >
+        </activity>
+        <activity
+            android:name=".RoomsTabActivity"
+            android:label="@string/title_activity_rooms_tab" >
+        </activity>
+        <activity
+            android:name=".AchievementsTabActivity"
+            android:label="@string/title_activity_achievements" >
+        </activity>
+        <activity
+            android:name=".SquadChooseActivity"
+            android:label="@string/title_activity_squad_choose" >
+        </activity>
+        <activity
+            android:name=".SquadEditActivity"
+            android:label="@string/title_activity_squad_edit" >
+        </activity>
+        <activity
+            android:name=".ChildRecordRemarksDialogActivity"
+            android:label="@string/title_activity_child_record_remarks_dialog"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".SleepTabActivity"
+            android:label="@string/title_activity_sleep_tab" >
+        </activity>
+        <activity
+            android:name=".WarningsTabActivity"
+            android:label="@string/title_activity_warnings_tab" >
+        </activity>
+        <activity
+            android:name=".OtherTabActivity"
+            android:label="@string/title_activity_other_tab" >
+        </activity>
+        <activity
+            android:name=".LessonsTabActivity"
+            android:label="@string/title_activity_lessons_tab" >
+        </activity>
+        <activity
+            android:name=".NotepadTabActivity"
+            android:label="@string/title_activity_notepad_tab" >
+        </activity>
+        <activity
+            android:name=".ForeignChildNameDialogActivity"
+            android:label="@string/title_activity_name_of_foreign_child_dialog"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".StatisticsActivity"
+            android:label="@string/title_activity_statistics" >
+        </activity>
+        <activity
+            android:name=".ChildEditDialogActivity"
+            android:label="@string/title_activity_child_edit_dialog"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".ChildRemoveDialogActivity"
+            android:label="@string/title_activity_child_remove_dialog"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".NewChildDialogActivity"
+            android:label="@string/title_activity_new_child_dialog" >
+        </activity>
+        <activity
+            android:name=".NotesDialogActivity"
+            android:label="@string/title_activity_notes_dialog"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+    </application>
+
+</manifest>

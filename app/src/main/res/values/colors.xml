@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_comparator_button_checked">
+        #33CCFF
+    </color>
+    <color name="my_comparator_button_unchecked">
+        #FF0000
+    </color>
+</resources>

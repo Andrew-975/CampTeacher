@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Teacher</string>
+
+    <string name="action_settings">Squad</string>
+    <string name="title_activity_plates_tab">PlatesTabActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_rooms_tab">RoomsTabActivity</string>
+    <string name="title_activity_achievements">AchievementsTabActivity</string>
+    <string name="title_activity_squad_choose">SquadChooseActivity</string>
+    <string name="title_activity_squad_edit">SquadEditActivity</string>
+    <string name="title_activity_child_record_remarks_dialog">ChildRecordRemarksDialogActivity
+    </string>
+    <string name="title_activity_sleep_tab">SleepTabActivity</string>
+    <string name="title_activity_warnings_tab">WarningsTabActivity</string>
+    <string name="title_activity_other_tab">OtherTabActivity</string>
+    <string name="title_activity_lessons_tab">LessonsTabActivity</string>
+    <string name="title_activity_notepad_tab">NotepadTabActivity</string>
+    <string name="title_activity_name_of_foreign_child_dialog">NameOfForeignChildDialogActivity
+    </string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="title_activity_child_edit_dialog">ChildEditDialogActivity</string>
+    <string name="title_activity_child_remove_dialog">ChildRemoveDialogActivity</string>
+    <string name="title_activity_new_child_dialog">NewChildDialogActivity</string>
+    <string name="title_activity_notes_dialog">NotesDialogActivity</string>
+</resources>
